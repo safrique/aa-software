@@ -2,37 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb1ff1cc-3264-40b3-8ca4-96fcdd5c27bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontendController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/admin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/admin/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/admin/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/admin/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/admin/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/admin/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/admin/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/admin/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/admin/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/admin/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/admin/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/app/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/app/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/app/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/app/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/app/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/app/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/app/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/frontend/app/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Database/ReferenceTableMigration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Database/ReferencingTableMigration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_22_213229_create_timesheet_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_22_214354_create_projects_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,13 +146,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jvniekerk\Desktop\repos\aa-software\app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jvniekerk\Desktop\repos\aa-software\resources\frontend\admin" />
     </key>
@@ -212,7 +189,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600806234435</updated>
-      <workItem from="1600806235675" duration="2553000" />
+      <workItem from="1600806235675" duration="5052000" />
     </task>
     <task id="LOCAL-00001" summary="Created Laravel app">
       <created>1600806497341</created>
@@ -228,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600806587458</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Set up Vue">
+      <created>1600809793138</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600809793138</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,16 +223,37 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Created Laravel app" />
     <MESSAGE value="Added project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added project files" />
+    <MESSAGE value="Set up Vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set up Vue" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="260" y="0" key="CommitChangelistDialog2" timestamp="1600806586522">
+    <state x="371" y="100" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600810771591">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="260" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1600806586522" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1600806591577">
+    <state x="371" y="100" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.690@0.0.1280.690" timestamp="1600810771591" />
+    <state x="260" y="0" key="CommitChangelistDialog2" timestamp="1600809791720">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1600806591577" />
+    <state x="260" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1600809791720" />
+    <state width="1238" height="167" key="GridCell.Tab.0.bottom" timestamp="1600809709928">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="167" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1600809709928" />
+    <state width="1238" height="167" key="GridCell.Tab.0.center" timestamp="1600809709928">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="167" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1600809709928" />
+    <state width="1238" height="167" key="GridCell.Tab.0.left" timestamp="1600809709928">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="167" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1600809709928" />
+    <state width="1238" height="167" key="GridCell.Tab.0.right" timestamp="1600809709928">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="167" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1600809709928" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1600809795978">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1600809795978" />
   </component>
 </project>
