@@ -6,9 +6,9 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTimesheetTable extends ReferencingTableMigration
+class CreateClientsTable extends ReferencingTableMigration
 {
-    protected $table = 'timesheet';
+    protected $table = 'clients';
 
     /**
      * Run the migrations.
@@ -21,14 +21,10 @@ class CreateTimesheetTable extends ReferencingTableMigration
             $this->table,
             function (Blueprint $table) {
                 $table->id();
-                $table->unsignedBigInteger('project_id');
-                $table->timestamp('started_at')->default(DB::raw('CURRENT_TIMESTAMP'));
-                $table->timestamp('ended_at')->default(DB::raw('CURRENT_TIMESTAMP'));
-                $table->unsignedBigInteger('duration')->default(DB::raw('timediff(started_at, ended_at)'));
+                $table->string('client_name');
+                $table->boolean('is_active')->default(true);
                 $table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
                 $table->timestamp('updated_at')->default(DB::raw('CURRENT_TIMESTAMP'));
-
-                $table->foreign('project_id')->references('id')->on('projects');
             }
         );
     }

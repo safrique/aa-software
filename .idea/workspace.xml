@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb1ff1cc-3264-40b3-8ca4-96fcdd5c27bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Database/ReferenceTableMigration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Database/ReferencingTableMigration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_22_213229_create_timesheet_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_22_214354_create_projects_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Helpers/Helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_21_134304_create_clients_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_21_194638_create_companies_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_22_192826_create_client_contacts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_22_194955_create_company_contacts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_25_200000_create_rate_types_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_25_200003_create_rates_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_22_213229_create_timesheet_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_22_213229_create_timesheet_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_22_214354_create_projects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_22_212354_create_projects_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -189,7 +194,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600806234435</updated>
-      <workItem from="1600806235675" duration="5052000" />
+      <workItem from="1600806235675" duration="5295000" />
+      <workItem from="1600897439551" duration="97000" />
+      <workItem from="1601041236994" duration="1149000" />
+      <workItem from="1601042557046" duration="202000" />
+      <workItem from="1601061987880" duration="2829000" />
     </task>
     <task id="LOCAL-00001" summary="Created Laravel app">
       <created>1600806497341</created>
@@ -212,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600809793138</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Started building tables">
+      <created>1600812339578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600812339578</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,36 +240,42 @@
     <MESSAGE value="Created Laravel app" />
     <MESSAGE value="Added project files" />
     <MESSAGE value="Set up Vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up Vue" />
+    <MESSAGE value="Started building tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started building tables" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="371" y="100" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600810771591">
-      <screen x="0" y="0" width="1280" height="690" />
+    <state x="2350" y="-928" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601042601080">
+      <screen x="1793" y="-1080" width="1920" height="1050" />
     </state>
+    <state x="2350" y="-928" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.690/-127.-1080.1920.1050/1793.-1080.1920.1050@1793.-1080.1920.1050" timestamp="1601042601080" />
     <state x="371" y="100" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.690@0.0.1280.690" timestamp="1600810771591" />
-    <state x="260" y="0" key="CommitChangelistDialog2" timestamp="1600809791720">
+    <state x="260" y="0" key="CommitChangelistDialog2" timestamp="1600812338133">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="260" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1600809791720" />
-    <state width="1238" height="167" key="GridCell.Tab.0.bottom" timestamp="1600809709928">
+    <state x="260" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1600812338133" />
+    <state width="1238" height="167" key="GridCell.Tab.0.bottom" timestamp="1600812368204">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="167" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1600809709928" />
-    <state width="1238" height="167" key="GridCell.Tab.0.center" timestamp="1600809709928">
+    <state width="1238" height="167" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1600812368204" />
+    <state width="1238" height="167" key="GridCell.Tab.0.center" timestamp="1600812368204">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="167" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1600809709928" />
-    <state width="1238" height="167" key="GridCell.Tab.0.left" timestamp="1600809709928">
+    <state width="1238" height="167" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1600812368204" />
+    <state width="1238" height="167" key="GridCell.Tab.0.left" timestamp="1600812368204">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="167" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1600809709928" />
-    <state width="1238" height="167" key="GridCell.Tab.0.right" timestamp="1600809709928">
+    <state width="1238" height="167" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1600812368204" />
+    <state width="1238" height="167" key="GridCell.Tab.0.right" timestamp="1600812368204">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="167" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1600809709928" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1600809795978">
+    <state width="1238" height="167" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1600812368204" />
+    <state x="2496" y="-832" key="NewPhpClassDialog" timestamp="1601041692993">
+      <screen x="1793" y="-1080" width="1920" height="1050" />
+    </state>
+    <state x="2496" y="-832" key="NewPhpClassDialog/0.0.1280.690/-127.-1080.1920.1050/1793.-1080.1920.1050@1793.-1080.1920.1050" timestamp="1601041692993" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1600812345168">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1600809795978" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1600812345168" />
   </component>
 </project>
