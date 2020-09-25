@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb1ff1cc-3264-40b3-8ca4-96fcdd5c27bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Helpers/Helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/frontend/app/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/frontend/app/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/frontend/app/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/frontend/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/frontend/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/frontend/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/frontend/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/frontend/app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/frontend/app/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/frontend/app/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/frontend/app/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/frontend/app/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/frontend/app/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,18 +150,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/frontend/app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jvniekerk\Desktop\repos\aa-software\app" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jvniekerk\Desktop\repos\aa-software\resources\frontend\app\src" />
       <recent name="C:\Users\jvniekerk\Desktop\repos\aa-software\resources\frontend\admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jvniekerk\Desktop\repos\aa-software\resources\frontend\app" />
+      <recent name="C:\Users\jvniekerk\Desktop\repos\aa-software\app" />
     </key>
   </component>
   <component name="RunManager" selected="npm.serve:app">
@@ -189,7 +199,7 @@
       <workItem from="1600897439551" duration="97000" />
       <workItem from="1601041236994" duration="1149000" />
       <workItem from="1601042557046" duration="202000" />
-      <workItem from="1601061987880" duration="3239000" />
+      <workItem from="1601061987880" duration="6201000" />
     </task>
     <task id="LOCAL-00001" summary="Created Laravel app">
       <created>1600806497341</created>
@@ -226,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601065065387</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Removed redundant Helpers.php code">
+      <created>1601065248598</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601065248598</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +257,8 @@
     <MESSAGE value="Set up Vue" />
     <MESSAGE value="Started building tables" />
     <MESSAGE value="Built initial db tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Built initial db tables" />
+    <MESSAGE value="Removed redundant Helpers.php code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant Helpers.php code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2350" y="-928" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601042601080">
@@ -248,33 +266,47 @@
     </state>
     <state x="2350" y="-928" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.690/-127.-1080.1920.1050/1793.-1080.1920.1050@1793.-1080.1920.1050" timestamp="1601042601080" />
     <state x="371" y="100" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.690@0.0.1280.690" timestamp="1600810771591" />
-    <state x="260" y="0" key="CommitChangelistDialog2" timestamp="1600812338133">
-      <screen x="0" y="0" width="1280" height="690" />
+    <state x="2183" y="-1080" key="CommitChangelistDialog2" timestamp="1601065247675">
+      <screen x="1793" y="-1080" width="1920" height="1050" />
     </state>
+    <state x="2183" y="-1080" key="CommitChangelistDialog2/0.0.1280.690/-127.-1080.1920.1050/1793.-1080.1920.1050@1793.-1080.1920.1050" timestamp="1601065247675" />
     <state x="260" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1600812338133" />
-    <state width="1238" height="167" key="GridCell.Tab.0.bottom" timestamp="1600812368204">
-      <screen x="0" y="0" width="1280" height="690" />
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1601066631823">
+      <screen x="1793" y="-1080" width="1920" height="1050" />
     </state>
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1280.690/-127.-1080.1920.1050/1793.-1080.1920.1050@1793.-1080.1920.1050" timestamp="1601066631823" />
     <state width="1238" height="167" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1600812368204" />
-    <state width="1238" height="167" key="GridCell.Tab.0.center" timestamp="1600812368204">
-      <screen x="0" y="0" width="1280" height="690" />
+    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1601066631822">
+      <screen x="1793" y="-1080" width="1920" height="1050" />
     </state>
+    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1280.690/-127.-1080.1920.1050/1793.-1080.1920.1050@1793.-1080.1920.1050" timestamp="1601066631822" />
     <state width="1238" height="167" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1600812368204" />
-    <state width="1238" height="167" key="GridCell.Tab.0.left" timestamp="1600812368204">
-      <screen x="0" y="0" width="1280" height="690" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1601066631822">
+      <screen x="1793" y="-1080" width="1920" height="1050" />
     </state>
+    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1280.690/-127.-1080.1920.1050/1793.-1080.1920.1050@1793.-1080.1920.1050" timestamp="1601066631822" />
     <state width="1238" height="167" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1600812368204" />
-    <state width="1238" height="167" key="GridCell.Tab.0.right" timestamp="1600812368204">
-      <screen x="0" y="0" width="1280" height="690" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1601066631822">
+      <screen x="1793" y="-1080" width="1920" height="1050" />
     </state>
+    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1280.690/-127.-1080.1920.1050/1793.-1080.1920.1050@1793.-1080.1920.1050" timestamp="1601066631822" />
     <state width="1238" height="167" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1600812368204" />
     <state x="2496" y="-832" key="NewPhpClassDialog" timestamp="1601041692993">
       <screen x="1793" y="-1080" width="1920" height="1050" />
     </state>
     <state x="2496" y="-832" key="NewPhpClassDialog/0.0.1280.690/-127.-1080.1920.1050/1793.-1080.1920.1050@1793.-1080.1920.1050" timestamp="1601041692993" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1600812345168">
-      <screen x="0" y="0" width="1280" height="690" />
+    <state x="2143" y="-961" key="Vcs.Push.Dialog.v2" timestamp="1601065249647">
+      <screen x="1793" y="-1080" width="1920" height="1050" />
     </state>
+    <state x="2143" y="-961" key="Vcs.Push.Dialog.v2/0.0.1280.690/-127.-1080.1920.1050/1793.-1080.1920.1050@1793.-1080.1920.1050" timestamp="1601065249647" />
     <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1600812345168" />
+    <state x="2460" y="-822" width="585" height="534" key="find.popup" timestamp="1601066446308">
+      <screen x="1793" y="-1080" width="1920" height="1050" />
+    </state>
+    <state x="2460" y="-822" width="585" height="534" key="find.popup/0.0.1280.690/-127.-1080.1920.1050/1793.-1080.1920.1050@1793.-1080.1920.1050" timestamp="1601066446308" />
+    <state x="2416" y="-853" width="672" height="678" key="search.everywhere.popup" timestamp="1601067703609">
+      <screen x="1793" y="-1080" width="1920" height="1050" />
+    </state>
+    <state x="2416" y="-853" width="672" height="678" key="search.everywhere.popup/0.0.1280.690/-127.-1080.1920.1050/1793.-1080.1920.1050@1793.-1080.1920.1050" timestamp="1601067703609" />
   </component>
 </project>
