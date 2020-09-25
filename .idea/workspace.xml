@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb1ff1cc-3264-40b3-8ca4-96fcdd5c27bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Helpers/Helpers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_21_134304_create_clients_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_21_194638_create_companies_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_22_192826_create_client_contacts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_22_194955_create_company_contacts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_25_200000_create_rate_types_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_25_200003_create_rates_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_22_213229_create_timesheet_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_22_213229_create_timesheet_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_22_214354_create_projects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_22_212354_create_projects_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Helpers/Helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Helpers.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +189,7 @@
       <workItem from="1600897439551" duration="97000" />
       <workItem from="1601041236994" duration="1149000" />
       <workItem from="1601042557046" duration="202000" />
-      <workItem from="1601061987880" duration="2829000" />
+      <workItem from="1601061987880" duration="3239000" />
     </task>
     <task id="LOCAL-00001" summary="Created Laravel app">
       <created>1600806497341</created>
@@ -228,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600812339578</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Built initial db tables">
+      <created>1601065065387</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601065065387</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +239,8 @@
     <MESSAGE value="Added project files" />
     <MESSAGE value="Set up Vue" />
     <MESSAGE value="Started building tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started building tables" />
+    <MESSAGE value="Built initial db tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Built initial db tables" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2350" y="-928" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601042601080">
